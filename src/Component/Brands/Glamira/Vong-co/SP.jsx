@@ -3,41 +3,34 @@ import React from 'react'
 function SP(props) {
     return (
         <div>
-            <div class="col-lg-12 col-md-4 col-6">
-                <div class="product">
-                    <div class="product_img">
+            <div className="col-lg-12 col-md-4 col-6">
+                <div className="product">
+                    <div className="product_img">
 
                         <a href={props.link}>
                             <img src={props.image} alt="product_img1" />
                         </a>
-                        <div class="product_action_box">
-                            <ul class="list_none pr_action_btn">
-                                <li class="add-to-cart"><a href="#"><i class="icon-basket-loaded"></i> Add To Cart</a></li>
+                        <div className="product_action_box">
+                            <ul className="list_none pr_action_btn">
+                                <li className="add-to-cart"><a href="#"><i className="icon-basket-loaded"></i> Add To Cart</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="product_info">
-                        <h6 class="product_title"><a href={props.link}>{props.name}</a></h6>
-                        <div class="product_price">
-                            <span class="price">${props.newprice}</span>
+                    <div className="product_info">
+                        <h6 className="product_title"><a href={props.link}>{props.name}</a></h6>
+                        <div className="product_price">
+                            <span className="price">${props.newprice}</span>
                             <del>$55.25</del>
 
                         </div>
-                        <div class="rating_wrap">
-                            <div class="rating">
-                                {/* <div class="product_rate" style="width:80%"></div> */}
+                        <div className="rating_wrap">
+                            <div className="rating">
+                                {/* <div className="product_rate" style="width:80%"></div> */}
                             </div>
-                            <span class="rating_num">(21)</span>
+                            <span className="rating_num">(21)</span>
                         </div>
-                        <div class="pr_desc">
+                        <div className="pr_desc">
                             <p>{props.content}</p>
-                        </div>
-
-                        <div class="list_product_action_box">
-                            <ul class="list_none pr_action_btn">
-                                <li class="add-to-cart"><a href="#"><i class="icon-magnifier-add"></i> Add To Cart</a></li>
-
-                            </ul>
                         </div>
                     </div>
                 </div>

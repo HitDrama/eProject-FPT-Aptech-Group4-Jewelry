@@ -6,9 +6,12 @@ import Header from './Component/Header/Header';
 import Footer from './Component/Footer/Footer';
 import Category from './Component/Category/Category';
 import About from './Component/About/About';
-import Mau from './Component/Category_mau/Mau';
 import Appcart from './Component/App_Cart/Appcart';
 import React, { useState } from 'react';
+import Compare from './Component/Compare/Compare';
+import Gallery from './Component/Gallery/Gallery';
+import Feedback from './Component/Feedback/Feedback';
+import Contact from './Component/Contact/ContactUs';
 
 
 
@@ -21,6 +24,11 @@ import Product_Sok_vong_co from './Component/Brands/Sokolov/Vong-co/Brand_Sok_vo
 import Product_Tie_nhan from './Component/Brands/Tierra/Nhan/Brand_Tierra_nhan';
 import Product_Tie_vong_co from './Component/Brands/Tierra/Vong-co/Brand_Tierra_vong_co';
 import Product_Tie_vong_tay from './Component/Brands/Tierra/Vong-tay/Brand_Tierra_vongtay';
+
+
+import Categorypandora from './Component/Category_hang/Categorypandora';
+import Categorysokolov from './Component/Category_hang/Categorysokolov';
+import Categorytierra from './Component/Category_hang/Categorytierra';
 
 
 //Product
@@ -76,6 +84,7 @@ import Vongtay3tierra from './Component/Product/Tierra/vongtay/vongtay3';
 import Vongtay4tierra from './Component/Product/Tierra/vongtay/vongtay4';
 import Vongtay5tierra from './Component/Product/Tierra/vongtay/vongtay5';
 
+
 function App() {
 
   const [courses, setCourses] = useState(
@@ -125,6 +134,11 @@ function App() {
 
 
 
+
+
+
+
+
   return (
     <div >
       <Header />
@@ -135,7 +149,7 @@ function App() {
 
           {/* Pages */}
 
-          <Route path='/Cart' element={<Appcart cartCourses={cartCourses}
+          <Route path='Cart' element={<Appcart cartCourses={cartCourses}
             deleteCourseFromCartFunction={deleteCourseFromCartFunction}
             totalAmountCalculationFunction={
               totalAmountCalculationFunction
@@ -149,6 +163,18 @@ function App() {
             filterCourseFunction={filterCourseFunction}
             addCourseToCartFunction={addCourseToCartFunction} />} />
 
+          <Route path='/compare' element={<Compare cartCourses={cartCourses}
+            deleteCourseFromCartFunction={deleteCourseFromCartFunction}
+            totalAmountCalculationFunction={
+              totalAmountCalculationFunction
+            }
+            setCartCourses={setCartCourses} />} />
+          <Route path='/Gallery' element={<Gallery />} />
+          <Route path='/Feedback' element={<Feedback />} />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/Category-Glamira' element={<Categorypandora />} />
+          <Route path='/Category-Sokolov' element={<Categorysokolov />} />
+          <Route path='/Category-Tierra' element={<Categorytierra />} />
 
 
 
@@ -168,6 +194,8 @@ function App() {
           <Route path='/Product-Tierra-Ring' element={<Product_Tie_nhan />} />
           <Route path='/Product-Tierra-Necklace' element={<Product_Tie_vong_co />} />
           <Route path='/Product-Tierra-Bracelet' element={<Product_Tie_vong_tay />} />
+
+
 
           {/* // Product */}
 

@@ -5843,7 +5843,7 @@ footer .widget_title {
 	text-transform: capitalize;
 }
 .compare_box table tr td.row_title {
-	width: 270px;
+	width: 150px;
 	text-transform: uppercase;
 	font-weight: 600;
 }

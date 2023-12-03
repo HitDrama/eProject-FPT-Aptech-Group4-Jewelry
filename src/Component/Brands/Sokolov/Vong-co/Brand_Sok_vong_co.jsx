@@ -5,39 +5,39 @@ import Sp from './Sp'
 function Brand_Sok_vong_co() {
     return (
         <div>
-            <div class="breadcrumb_section bg_gray page-title-mini">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <div class="page-title">
-                                <h1>Shop List</h1>
+            <div className="breadcrumb_section bg_gray page-title-mini">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-md-6">
+                            <div className="page-title">
+                                <h1>List of products</h1>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <ol class="breadcrumb justify-content-md-end">
-                                <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item active">Product</li>
-                                <li class="breadcrumb-item active">Sokolov</li>
-                                <li class="breadcrumb-item active">Necklace</li>
+                        <div className="col-md-6">
+                            <ol className="breadcrumb justify-content-md-end">
+                                <li className="breadcrumb-item"><a href="/">Home</a></li>
+                                <li className="breadcrumb-item active">Product</li>
+                                <li className="breadcrumb-item active">Sokolov</li>
+                                <li className="breadcrumb-item active">Necklace</li>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="main_content">
+            <div className="main_content">
 
 
-                <div class="section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="row align-items-center mb-4 pb-1">
-                                    <div class="col-12">
-                                        <div class="product_header">
-                                            <div class="product_header_left">
-                                                <div class="custom_select">
-                                                    <select class="form-control form-control-sm">
+                <div className="section">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="row align-items-center mb-4 pb-1">
+                                    <div className="col-12">
+                                        <div className="product_header">
+                                            <div className="product_header_left">
+                                                <div className="custom_select">
+                                                    <select className="form-control form-control-sm">
                                                         <option value="order" href="#">Default sorting</option>
                                                         <option value="popularity">Sort by popularity</option>
                                                         <option value="date">Sort by newness</option>
@@ -46,13 +46,13 @@ function Brand_Sok_vong_co() {
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="product_header_right">
-                                                <div class="products_view">
-                                                    <a class="shorting_icon grid"><i class="ti-view-grid"></i></a>
-                                                    <a class="shorting_icon list active"><i class="ti-layout-list-thumb"></i></a>
+                                            <div className="product_header_right">
+                                                <div className="products_view">
+                                                    <a className="shorting_icon grid"><i className="ti-view-grid"></i></a>
+                                                    <a className="shorting_icon list active"><i className="ti-layout-list-thumb"></i></a>
                                                 </div>
-                                                <div class="custom_select">
-                                                    <select class="form-control form-control-sm">
+                                                <div className="custom_select">
+                                                    <select className="form-control form-control-sm">
                                                         <option value="">Showing</option>
                                                         <option value="9">9</option>
                                                         <option value="12">12</option>
@@ -63,7 +63,7 @@ function Brand_Sok_vong_co() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row shop_container list">
+                                <div className="row shop_container list">
                                     {
                                         Vong_co_Sok.map((items, i) => {
 
@@ -78,19 +78,19 @@ function Brand_Sok_vong_co() {
                     </div>
                 </div>
 
-                <div class="section bg_default small_pt small_pb">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="heading_s1 mb-md-0 heading_light">
+                <div className="section bg_default small_pt small_pb">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-md-6">
+                                <div className="heading_s1 mb-md-0 heading_light">
                                     <h3>Subscribe Our Newsletter</h3>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="newsletter_form">
+                            <div className="col-md-6">
+                                <div className="newsletter_form">
                                     <form>
-                                        <input type="text" required="" class="form-control rounded-0" placeholder="Enter Email Address" />
-                                        <button type="submit" class="btn btn-dark rounded-0" name="submit" value="Submit">Subscribe</button>
+                                        <input type="text" required="" className="form-control rounded-0" placeholder="Enter Email Address" />
+                                        <button type="submit" className="btn btn-dark rounded-0" name="submit" value="Submit">Subscribe</button>
                                     </form>
                                 </div>
                             </div>
