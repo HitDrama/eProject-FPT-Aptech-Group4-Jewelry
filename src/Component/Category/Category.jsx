@@ -32,7 +32,7 @@ function Category({ courses,
                         <div className="col-md-6">
                             <div className="page-title">
                                 <h1>Shop List Left Sidebar</h1>
-                                <Link to="/cart" className="nav-link"><i className="linearicons-bag2"></i>Cart</Link>
+                                <Link to="/cart" className="nav-link"><i className="linearicons-bag2"></i>My Cart</Link>
                                 <Link to="/compare" className="nav-link"><i className="icon-shuffle"></i>Compare</Link>
                             </div>
                         </div>

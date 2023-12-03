@@ -219,19 +219,14 @@ function Header() {
                                                 <a className="dropdown-toggle nav-link" href="#" data-bs-toggle="dropdown">Pages</a>
                                                 <div className="dropdown-menu">
                                                     <ul>
-                                                        <li><a className="dropdown-item nav-link nav_item" href="/about">About
+                                                        <li><a className="dropdown-item nav-link nav_item" href="/aboutus">About
                                                             Us</a></li>
 
                                                         <li><a className="dropdown-item nav-link nav_item"
                                                             href="/contact">Contact Us</a></li>
                                                         <li><a className="dropdown-item nav-link nav_item" href="/gallery">Gallery</a></li>
                                                         <li><a className="dropdown-item nav-link nav_item" href="/feedback">Feedback</a></li>
-                                                        <li><a className="dropdown-item nav-link nav_item"
-                                                            href="login.html">Login</a></li>
-                                                        <li><a className="dropdown-item nav-link nav_item"
-                                                            href="signup.html">Register</a></li>
-                                                        <li><a className="dropdown-item nav-link nav_item"
-                                                            href="term-condition.html">Terms and Conditions</a></li>
+
                                                     </ul>
                                                 </div>
                                             </li>

@@ -12,7 +12,7 @@ import Compare from './Component/Compare/Compare';
 import Gallery from './Component/Gallery/Gallery';
 import Feedback from './Component/Feedback/Feedback';
 import Contact from './Component/Contact/ContactUs';
-
+import Aboutus from './Component/Aboutus/About'
 
 
 //Brands
@@ -175,6 +175,7 @@ function App() {
           <Route path='/Category-Glamira' element={<Categorypandora />} />
           <Route path='/Category-Sokolov' element={<Categorysokolov />} />
           <Route path='/Category-Tierra' element={<Categorytierra />} />
+          <Route path='/Aboutus' element={<Aboutus />} />
 
 
 
