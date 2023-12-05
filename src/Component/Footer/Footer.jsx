@@ -36,8 +36,8 @@ function Footer() {
                                 <div className="widget">
                                     <h6 className="widget_title">Useful Links</h6>
                                     <ul className="widget_links">
-                                        <li><Link to="/">Home</Link></li>
-                                        <li><Link to="/Aboutus">About Us</Link></li>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/Aboutus">About Us</a></li>
                                         <li><Link to="/Contact">Contact Us</Link></li>
                                         <li><Link to="/Feedback">Feedback</Link></li>
                                         <li><Link to="/Gallery">Gallery</Link></li>
