@@ -13,9 +13,9 @@
 
   
 
-<h3  align="center">DURABLE FURNITURES</h3>
+<h3  align="center">DE BEERS</h3>
 
-  DURABLE FURNITURES is selling various types of Furniture’s. The company advertises by distributing the pamphlets, advertising on television and so on. Due to rapid development in internet field, the company decides to launch a website where people will get all the information about the various products available with them easily.
+ De Beers Group is the world’s leading diamond company, with expertise in diamond exploration, mining, grading, marketing and retail. Together with our joint venture partners, we employ more than 20,000 people across the global diamond pipeline, with many of these people in our source countries of Botswana, Canada, Namibia and South Africa. Through our own stores and our partner jeweler locations, our beautiful diamonds and jewellery designs bring joy and meaning to lovers of diamonds all around the world.
   <br  />
   <a  href="https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry"><strong>Explore the source »</strong></a>
   <a  href="https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry/tree/main/document" target="_blank"><strong>Explore the documents »</strong></a>
