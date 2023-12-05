@@ -1,27 +1,39 @@
 [
     {
         "metal": "585",
-        "link": "/nhan1tierra",
+        "link": "/product/37",
         "id": 37,
         "name": "Eternity Princess Wedding Rings",
-        "image": "assets/hinhanhthi/Tierra/nhan/nhan1.jpg",
+        "image": "/assets/hinhanhthi/Tierra/nhan/nhan1.jpg",
         "weight": "4.12 gam",
         "material": "rose gold 585",
         "type_stone": "diamond",
         "content": "NCF0003 women's wedding ring is an Eternity women's ring model with a simple but feminine and luxurious design. The ring has a slim design that helps accentuate women's small hands. A strip of sheet stones is attached along the ring band to increase sparkle",
         "oldprice": 100000,
+        "bard": [
+            {
+                "id": 37,
+                "name": "Tierra"
+            }
+        ],
         "newprice": 1150.16,
         "view": 25,
         "rating": 4,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "585",
-        "link": "/nhan2tierra",
+        "link": "/product/38",
         "id": 38,
         "name": "Eternity Flat Cut NCF0016",
-        "image": "assets/hinhanhthi/Tierra/nhan/nhan2.jpg",
+        "image": "/assets/hinhanhthi/Tierra/nhan/nhan2.jpg",
         "weight": "3.05 gam",
+        "bard": [
+            {
+                "id": 38,
+                "name": "Tierra"
+            }
+        ],
         "material": "rose gold 585",
         "type_stone": "diamond",
         "content": "Eternity Flat Cut NCF0016 women's wedding ring is a simple but unique style women's wedding ring with a classic, sophisticated Eternity design combined with a sophisticated flat cut design encrusted with small diamonds arranged alternately. Together with meticulousness, it creates a highlight and makes the appearance of this Eternity ring more eye-catching and feminine.",
@@ -29,54 +41,72 @@
         "newprice": 822.25,
         "view": 23,
         "rating": 4,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "585",
-        "link": "/nhan3tierra",
+        "link": "/product/39",
         "id": 39,
         "name": "Ring Eternity NCF0018",
-        "image": "assets/hinhanhthi/Tierra/nhan/nhan3.jpg",
+        "image": "/assets/hinhanhthi/Tierra/nhan/nhan3.jpg",
         "weight": "2.85 gam",
         "material": "rose gold 585",
         "type_stone": "diamond",
         "content": "Eternity diamond wedding rings are loved for their luxurious beauty and profound meaning of faithful love. Eternity wedding rings appeared as early as around 2000-1800 BC, when the ancient Egyptians wanted to create an (eternal circle) so they attached small diamonds consecutively, sharing the same starting point. and endpoint",
         "oldprice": 100000,
         "newprice": 809.48,
+        "bard": [
+            {
+                "id": 39,
+                "name": "Tierra"
+            }
+        ],
         "view": 11,
         "rating": 4,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "585",
-        "link": "/nhan4tierra",
+        "link": "/product/40",
         "id": 40,
         "name": "Ring Eternity NCF0022",
-        "image": "assets/hinhanhthi/Tierra/nhan/nhan4.jpg",
+        "image": "/assets/hinhanhthi/Tierra/nhan/nhan4.jpg",
         "weight": "2.96 gam",
         "material": "gold 585",
         "type_stone": "diamond",
         "content": "Originating in ancient Egypt, the Eternity diamond wedding ring consists of small stones attached together to form a circle, representing eternal, indestructible love. With this profound meaning, Eternity diamond rings are always the top choice for couples looking for a 100-year-old keepsake.",
         "oldprice": 100000,
         "newprice": 1259.73,
+        "bard": [
+            {
+                "id": 40,
+                "name": "Tierra"
+            }
+        ],
         "view": 17,
         "rating": 4,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "platinum",
-        "link": "/nhan5tierra",
+        "link": "/product/41",
         "id": 41,
         "name": "Geometric Eternity Ring NCF0024",
-        "image": "assets/hinhanhthi/Tierra/nhan/nhan5.jpg",
+        "image": "/assets/hinhanhthi/Tierra/nhan/nhan5.jpg",
         "weight": "2.46 gam",
         "material": "platinum",
         "type_stone": "diamond",
         "content": "Bringing perfect and sophisticated beauty, the NCF0024 women's wedding ring is uniquely designed with a sophisticated bezel prong and a small sparkling diamond firmly placed in a delicate diamond-shaped frame, combined with a diamond groove. The panels are meticulously attached, creating a beautiful and luxurious appearance that attracts all girls' eyes from the first time.",
         "oldprice": 100000,
         "newprice": 1109.79,
+        "bard": [
+            {
+                "id": 41,
+                "name": "Tierra"
+            }
+        ],
         "view": 13,
         "rating": 4,
-        "type": "nhan"
+        "type": "Ring"
     }
 ]

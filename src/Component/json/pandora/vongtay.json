@@ -1,135 +1,177 @@
 [
     {
         "metal": "375",
-        "link": "/vongtay1glamira",
+        "link": "/product/15",
         "id": 15,
         "name": "Bracelet Waren",
-        "image": "assets/hinhanhthi/Pandora/vong tay/vongtay1.jpg",
+        "image": "/assets/hinhanhthi/Pandora/vong tay/vongtay1.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/vong tay/vongtay1.1.jpg",
         "clarity": "VS1",
         "weight": "4.22 gam",
         "material": "rose gold 375",
         "type_stone": "diamond",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 15,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 772.33,
         "view": 27,
         "style": " Very good",
         "rating": 4,
-        "type": "vong_tay"
+        "type": "Bracelet"
     },
     {
         "metal": "585",
-        "link": "/vongtay2glamira",
+        "link": "/product/16",
         "id": 16,
         "name": "Bracelet Ferstel",
-        "image": "assets/hinhanhthi/Pandora/vong tay/vongtay2.jpg",
+        "image": "/assets/hinhanhthi/Pandora/vong tay/vongtay2.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/vong tay/vongtay2.2.jpg",
         "clarity": "VS1",
         "weight": "2.72 gam",
         "material": "gold 585",
         "type_stone": "sapphire",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 16,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 426.58,
         "view": 20,
         "style": " Very good",
         "rating": 4,
-        "type": "vong_tay"
+        "type": "Bracelet"
     },
     {
         "metal": "585",
-        "link": "/vongtay3glamira",
+        "link": "/product/17",
         "id": 17,
         "name": "Bracelet Monika",
-        "image": "assets/hinhanhthi/Pandora/vong tay/vongtay3.jpg",
+        "image": "/assets/hinhanhthi/Pandora/vong tay/vongtay3.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/vong tay/vongtay3.3.jpg",
         "clarity": "VS1",
         "weight": "13.39 gam",
         "material": "rose gold 585",
         "type_stone": "sapphire",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 17,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
-        "newprice": 2086.45,
+        "newprice": 8216.25,
         "view": 19,
         "style": " Very good",
         "rating": 4,
-        "type": "vong_tay"
+        "type": "Bracelet"
     },
     {
         "metal": "585",
-        "link": "/vongtay4glamira",
+        "link": "/product/18",
         "id": 18,
         "name": "Bracelet Verdoiment",
-        "image": "assets/hinhanhthi/Pandora/vong tay/vongtay4.jpg",
+        "image": "/assets/hinhanhthi/Pandora/vong tay/vongtay4.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/vong tay/vongtay4.4.jpg",
         "clarity": "VS1",
         "weight": "7.85 gam",
         "material": "rose gold 585",
         "type_stone": "swarovski",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 18,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 900.33,
         "view": 13,
         "style": " Very good",
         "rating": 4,
-        "type": "vong_tay"
+        "type": "Bracelet"
     },
     {
         "metal": "750",
-        "link": "/vongtay5glamira",
+        "link": "/product/19",
         "id": 19,
         "name": "Bracelet Mahle",
-        "image": "assets/hinhanhthi/Pandora/vong tay/vongtay5.jpg",
+        "image": "/assets/hinhanhthi/Pandora/vong tay/vongtay5.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/vong tay/vongtay5.5.jpg",
         "clarity": "VS1",
         "weight": "20.05 gam",
         "material": "rose gold 750",
         "type_stone": "swarovski",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 19,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 1776.91,
         "view": 24,
         "style": " Very good",
         "rating": 4,
-        "type": "vong_tay"
+        "type": "Bracelet"
     },
     {
         "metal": "375",
-        "link": "/vongtay6glamira",
+        "link": "/product/20",
         "id": 20,
         "name": "Bracelet Courtney",
-        "image": "assets/hinhanhthi/Pandora/vong tay/vongtay6.jpg",
+        "image": "/assets/hinhanhthi/Pandora/vong tay/vongtay6.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/vong tay/vongtay6.6.jpg",
         "clarity": "VS1",
         "weight": "7.42 gam",
         "material": "rose gold 375",
         "type_stone": "diamond",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 20,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 1144.00,
         "view": 16,
         "style": " Very good",
         "rating": 4,
-        "type": "vong_tay"
+        "type": "Bracelet"
     },
     {
         "metal": "375",
-        "link": "/vongtay7glamira",
+        "link": "/product/21",
         "id": 21,
         "name": "Bracelet Cedar",
-        "image": "assets/hinhanhthi/Pandora/vong tay/vongtay7.jpg",
+        "image": "/assets/hinhanhthi/Pandora/vong tay/vongtay7.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/vong tay/vongtay7.7.jpg",
         "clarity": "VS1",
         "weight": "2.76 gam",
         "material": "rose gold 375",
         "type_stone": "diamond",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 21,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 522.16,
         "view": 23,
         "style": " Very good",
         "rating": 4,
-        "type": "vong_tay"
+        "type": "Bracelet"
     }
 ]

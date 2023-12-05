@@ -1,130 +1,172 @@
 [
     {
         "metal": "375",
-        "link": "/daychuyen1glamira",
+        "link": "/product/1",
         "id": 1,
         "name": "Necklace Ahishar",
-        "image": "assets/hinhanhthi/Pandora/day-chuyen/daychuyen1.jpg",
+        "image": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen1.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen1.1.jpg",
         "clarity": "AAA",
         "weight": "2.52 gam",
         "material": "rose gold 375",
         "type_stone": "topaz",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 1,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 752.75,
         "view": 20,
         "style": " Very good",
         "rating": 5,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "585",
-        "link": "/daychuyen2glamira",
+        "link": "/product/2",
         "id": 2,
         "name": "Necklace Amtsgericht",
-        "image": "assets/hinhanhthi/Pandora/day-chuyen/daychuyen2.jpg",
+        "image": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen2.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen2.2.jpg",
         "clarity": "AAA",
         "weight": "2.61 gam",
         "material": "rose gold 585",
         "type_stone": "sapphire",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 2,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 817.16,
         "view": 22,
         "style": " Very good",
         "rating": 5,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "375",
-        "link": "/daychuyen3glamira",
+        "link": "/product/3",
         "id": 3,
         "name": "Necklace Agatane",
-        "image": "assets/hinhanhthi/Pandora/day-chuyen/daychuyen3.jpg",
+        "image": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen3.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen3.3.jpg",
         "clarity": "AAA",
         "weight": "3.80 Gam",
         "material": "rose gold 375",
         "type_stone": "sapphire",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 3,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 880.16,
         "view": 23,
         "style": " Very good",
         "rating": 4,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "375",
-        "link": "/daychuyen4glamira",
+        "link": "/product/4",
         "id": 4,
         "name": "Necklace Lucci",
-        "image": "assets/hinhanhthi/Pandora/day-chuyen/daychuyen4.jpg",
+        "image": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen4.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen4.4.jpg",
         "clarity": "AAA",
         "weight": "1.94 gam",
         "material": "rose gold 375",
         "type_stone": "topaz",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 4,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 320.87,
         "view": 24,
         "style": " Very_good",
         "rating": 3,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "585",
-        "link": "/daychuyen5glamira",
+        "link": "/product/5",
         "id": 5,
         "name": "Necklace Interstellar",
-        "image": "assets/hinhanhthi/Pandora/day-chuyen/daychuyen5.jpg",
+        "image": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen5.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen5.5.jpg",
         "clarity": "VS",
         "weight": "2.37 gam",
         "material": "gold 585",
         "type_stone": "diamond",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 5,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 461.79,
         "view": 20,
         "style": " Excellent",
         "rating": 4,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "585",
-        "link": "/daychuyen6glamira",
+        "link": "/product/6",
         "id": 6,
         "name": "Necklace Keviona",
-        "image": "assets/hinhanhthi/Pandora/day-chuyen/daychuyen6.jpg",
+        "image": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen6.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen6.6.jpg",
         "clarity": "VS",
         "weight": "2.05 gam",
         "material": "white gold 585",
         "type_stone": "diamond",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 6,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 314.29,
         "view": 24,
         "style": " Excellent",
         "rating": 3,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "",
-        "link": "/daychuyen7glamira",
+        "link": "/product/7",
         "id": 7,
         "name": "Necklace Roscoe",
-        "image": "assets/hinhanhthi/Pandora/day-chuyen/daychuyen7.jpg",
+        "image": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen7.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen7.7.jpg",
         "clarity": "AAA",
         "weight": "2.93 gam",
         "material": "rose gold 375",
         "type_stone": "swarovski",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 7,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 440.29,
         "view": 26,

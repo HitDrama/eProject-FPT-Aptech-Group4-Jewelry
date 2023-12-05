@@ -17,7 +17,7 @@ function ContactUs() {
                         </div>
                         <div className="col-md-6">
                             <ol className="breadcrumb justify-content-md-end">
-                                <li className="breadcrumb-item"><a href="#">Home</a></li>
+                                <li className="breadcrumb-item"><a href="/">Home</a></li>
                                 <li className="breadcrumb-item active">Pages</li>
                                 <li className="breadcrumb-item active">Contact Us</li>
                             </ol>

@@ -1,87 +1,112 @@
 [
     {
         "metal": "585",
-        "link": "/daychuyen1sokolov",
+        "link": "/product/22",
         "id": 22,
         "name": "Angel Pendant",
-        "image": "assets/hinhanhthi/Sokolov/day chuyen/daychuyen1.jpg",
+        "image": "/assets/hinhanhthi/Sokolov/day chuyen/daychuyen1.jpg",
         "weight": "3.93 gam",
         "material": "red gold 585",
         "type_stone": "diamond",
         "content": "The combination of deep motifs like being lost in space is interwoven with gold wreaths to enhance the art of the design. In the middle of the pendant, a moving diamond is added, making the product stand out special.",
-        "bard": "Sokolov",
+        "bard": [
+            {
+                "id": 22,
+                "name": "Sokolov"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 864.26,
         "view": 26,
         "rating": 4,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "585",
-        "link": "/daychuyen2sokolov",
+        "link": "/product/23",
         "id": 23,
         "name": "Pearl Pendant",
-        "image": "assets/hinhanhthi/Sokolov/day chuyen/daychuyen2.jpg",
+        "image": "/assets/hinhanhthi/Sokolov/day chuyen/daychuyen2.jpg",
         "weight": "2.03 gam",
         "material": "red gold 585",
         "type_stone": "diamond",
         "content": "Gold pendant with delicate, intricate lines studded with moving diamonds. Such a special way of attaching stones makes the pendant more vivid, attracting the eyes of the opposite person.",
-        "bard": "Sokolov",
+        "bard": [
+            {
+                "id": 23,
+                "name": "Sokolov"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 432.96,
         "view": 26,
         "rating": 4,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "585",
-        "link": "/daychuyen3sokolov",
+        "link": "/product/24",
         "id": 24,
         "name": "Gold necklace with stones",
-        "image": "assets/hinhanhthi/Sokolov/day chuyen/daychuyen3.jpg",
+        "image": "/assets/hinhanhthi/Sokolov/day chuyen/daychuyen3.jpg",
         "weight": "3.17 gam",
         "material": "red gold 585",
         "type_stone": "diamond",
         "content": "It is a method of coating with electrostatic paint or covering with precious materials of the platinum group. This technology makes the product more iridescent, helping the product retain its color longer",
-        "bard": "Sokolov",
+        "bard": [
+            {
+                "id": 24,
+                "name": "Sokolov"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 640.58,
         "view": 15,
         "rating": 4,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "585",
-        "link": "/daychuyen4sokolov",
+        "link": "/product/25",
         "id": 25,
         "name": "Pendant with Diamonds",
-        "image": "assets/hinhanhthi/Sokolov/day chuyen/daychuyen4.jpg",
+        "image": "/assets/hinhanhthi/Sokolov/day chuyen/daychuyen4.jpg",
         "weight": "1.97 gam",
         "material": "red gold 585",
         "type_stone": "diamond",
         "content": "Gold pendant with delicate, intricate lines studded with moving diamonds. Such a special way of attaching stones makes the pendant more vivid, attracting the eyes of the opposite person.",
-        "bard": "Sokolov",
+        "bard": [
+            {
+                "id": 25,
+                "name": "Sokolov"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 463.03,
         "view": 17,
         "rating": 4,
-        "type": "day_chuyen"
+        "type": "Necklace"
     },
     {
         "metal": "585",
-        "link": "/daychuyen5sokolov",
+        "link": "/product/26",
         "id": 26,
         "name": "585 Gold Pendant",
-        "image": "assets/hinhanhthi/Sokolov/day chuyen/daychuyen5.jpg",
+        "image": "/assets/hinhanhthi/Sokolov/day chuyen/daychuyen5.jpg",
         "weight": "1.97 gam",
         "material": "red gold 585",
         "type_stone": "diamond",
         "content": "A precious rosebud presented in gold and decorated with shining rhinestones will decorate your formal and evening looks. The rich colors, brilliance of precious metals and the shine of impeccable stones can complete the chosen outfit, regardless of its cut and color.",
-        "bard": "Sokolov",
+        "bard": [
+            {
+                "id": 26,
+                "name": "Sokolov"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 695.37,
         "view": 18,
         "rating": 4,
-        "type": "day_chuyen"
+        "type": "Necklace"
     }
 ]

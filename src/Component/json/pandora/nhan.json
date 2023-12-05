@@ -1,135 +1,177 @@
 [
     {
         "metal": "585",
-        "link": "/nhan1glamira",
+        "link": "/product/8",
         "id": 8,
         "name": "Diamong Ring Zeno",
-        "image": "assets/hinhanhthi/Pandora/nhan/nhan1.jpg",
+        "image": "/assets/hinhanhthi/Pandora/nhan/nhan1.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/nhan/nhan1.1.jpg",
         "clarity": "VS1",
         "weight": "3.23 gam",
         "material": "gold 585",
         "type_stone": "diamond",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 8,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 536.33,
-        "view": 24,
+        "view": 22,
         "style": " Very good",
         "rating": 4,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "375",
-        "link": "/nhan2glamira",
+        "link": "/product/9",
         "id": 9,
         "name": "Diamond Ring Sueann",
-        "image": "assets/hinhanhthi/Pandora/nhan/nhan2.jpg",
+        "image": "/assets/hinhanhthi/Pandora/nhan/nhan2.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/nhan/nhan2.2.jpg",
         "clarity": "VS1",
         "weight": "2.69 gam",
         "material": "white gold 375",
         "type_stone": "swarovski",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 9,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 1414.80,
-        "view": 22,
+        "view": 21,
         "style": " Very good",
         "rating": 3,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "585",
-        "link": "/nhan3glamira",
+        "link": "/product/10",
         "id": 10,
         "name": "Diamond Ring Baltic",
-        "image": "assets/hinhanhthi/Pandora/nhan/nhan3.jpg",
+        "image": "/assets/hinhanhthi/Pandora/nhan/nhan3.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/nhan/nhan3.3.jpg",
         "clarity": "VS1",
         "weight": "2.54 gam",
         "material": "rose gold 585",
         "type_stone": "swarovski",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 10,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 505,
         "view": 24,
         "style": " Very good",
         "rating": 4,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "375",
-        "link": "/nhan4glamira",
+        "link": "/product/11",
         "id": 11,
         "name": "Diamond Ring  Kleinman",
-        "image": "assets/hinhanhthi/Pandora/nhan/nhan4.jpg",
+        "image": "/assets/hinhanhthi/Pandora/nhan/nhan4.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/nhan/nhan4.4.jpg",
         "clarity": "VS1",
         "weight": "1.78 gam",
         "material": "rose gold 375",
         "type_stone": "swarovski",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 11,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 596.70,
-        "view": 24,
+        "view": 30,
         "style": " Very good",
         "rating": 3,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "375",
-        "link": "/nhan5glamira",
+        "link": "/product/12",
         "id": 12,
         "name": "Diamond Ring Collin",
-        "image": "assets/hinhanhthi/Pandora/nhan/nhan5.jpg",
+        "image": "/assets/hinhanhthi/Pandora/nhan/nhan5.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/nhan/nhan5.5.jpg",
         "clarity": "VS1",
         "weight": "1.75 gam",
         "material": "rose gold 375",
         "type_stone": "swarovski",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 12,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 395.08,
-        "view": 22,
+        "view": 12,
         "style": " Very good",
         "rating": 2,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "585",
-        "link": "/nhan6glamira",
+        "link": "/product/13",
         "id": 13,
         "name": "Diamond Ring Accablement",
-        "image": "assets/hinhanhthi/Pandora/nhan/nhan6.jpg",
+        "image": "/assets/hinhanhthi/Pandora/nhan/nhan6.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/nhan/nhan6.6.jpg",
         "clarity": "VS1",
         "weight": "4.35 gam",
         "material": "rose gold 585",
         "type_stone": "topaz",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 13,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
-        "newprice": 395.08,
-        "view": 20,
+        "newprice": 914.68,
+        "view": 28,
         "style": " Very good",
         "rating": 4,
-        "type": "nhan"
+        "type": "Ring"
     },
     {
         "metal": "585",
-        "link": "/nhan7glamira",
+        "link": "/product/14",
         "id": 14,
         "name": "Diamong Ring Alceste",
-        "image": "assets/hinhanhthi/Pandora/nhan/nhan7.jpg",
+        "image": "/assets/hinhanhthi/Pandora/nhan/nhan7.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/nhan/nhan7.7.jpg",
         "clarity": "VS1",
         "weight": "6.88 gam",
         "material": "rose gold 585",
         "type_stone": "diamond",
         "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
-        "bard": "Glamira",
+        "bard": [
+            {
+                "id": 14,
+                "name": "Glamira"
+            }
+        ],
         "oldprice": 100000,
         "newprice": 10792.37,
-        "view": 23,
+        "view": 15,
         "style": " Very good",
         "rating": 4,
-        "type": "nhan"
+        "type": "Ring"
     }
 ]

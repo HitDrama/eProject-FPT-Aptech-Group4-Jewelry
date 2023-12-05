@@ -3,7 +3,7 @@ import React from 'react'
 function nhan3() {
     return (
         <div> <div className="breadcrumb_section bg_gray page-title-mini">
-            <div className="container"> {/* <!-- STRART CONTAINER --> */}
+            <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <div className="page-title">
@@ -18,14 +18,12 @@ function nhan3() {
                         </ol>
                     </div>
                 </div>
-                {/* </div><!-- END CONTAINER--> */}
-            </div>
-            {/* <!-- END SECTION BREADCRUMB --> */}
 
-            {/* <!-- START MAIN CONTENT --> */}
+            </div>
+
             <div className="main_content" />
 
-            {/* <!-- START SECTION SHOP --> */}
+
             <div className="section">
                 <div className="container">
                     <div className="row">
@@ -212,12 +210,12 @@ function nhan3() {
 
                 </div>
             </div>
-            {/* <!-- END SECTION SHOP --> */}
+
 
 
 
         </div>
-            {/* <!-- END MAIN CONTENT --> */}
+
         </div>
     )
 }

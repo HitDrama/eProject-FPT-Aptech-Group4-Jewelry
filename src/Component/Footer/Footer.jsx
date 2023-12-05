@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -10,17 +11,19 @@ function Footer() {
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="widget">
                                     <div className="footer_logo">
-                                        <a href="#"><img src="assets/anh/logo/Logo-De_Beer_Footer-1.png" alt="logo" /></a>
+                                        <a href="#"><img src="/assets/anh/logo/Logo-De_Beer_Footer-1.png" alt="logo" /></a>
                                     </div>
                                     <p className="mb-3">If you have any questions or concerns, you can come to our address or send them via email</p>
                                     <ul className="contact_info">
                                         <li>
                                             <i className="ti-location-pin"></i>
-                                            <p>123 Street, Old Trafford, NewYork, USA</p>
+                                            <p>10 Collyer Quay
+                                                3-4 Ocean Financial Centre
+                                                Singapore</p>
                                         </li>
                                         <li>
                                             <i className="ti-email"></i>
-                                            <a href="mailto:info@sitename.com">info@sitename.com</a>
+                                            <a href="mailto:shopwise@gmail.com">shopwise@gmail.com</a>
                                         </li>
                                         <li>
                                             <i className="ti-mobile"></i>
@@ -33,11 +36,11 @@ function Footer() {
                                 <div className="widget">
                                     <h6 className="widget_title">Useful Links</h6>
                                     <ul className="widget_links">
-                                        <li><a href="/">Home</a></li>
-                                        <li><a href="/Aboutus">About Us</a></li>
-                                        <li><a href="/Contact">Contact Us</a></li>
-                                        <li><a href="/Feedback">Feedback</a></li>
-                                        <li><a href="/Gallery">Gallery</a></li>
+                                        <li><Link to="/">Home</Link></li>
+                                        <li><Link to="/Aboutus">About Us</Link></li>
+                                        <li><Link to="/Contact">Contact Us</Link></li>
+                                        <li><Link to="/Feedback">Feedback</Link></li>
+                                        <li><Link to="/Gallery">Gallery</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -46,8 +49,8 @@ function Footer() {
                                 <div className="widget">
                                     <h6 className="widget_title">Download App</h6>
                                     <ul className="app_list">
-                                        <li><a href="#"><img src="assets/images/f1.png" alt="f1" /></a></li>
-                                        <li><a href="#"><img src="assets/images/f2.png" alt="f2" /></a></li>
+                                        <li><a href="#"><img src="/assets/images/f1.png" alt="f1" /></a></li>
+                                        <li><a href="#"><img src="/assets/images/f2.png" alt="f2" /></a></li>
                                     </ul>
                                 </div>
                                 <div className="widget">
@@ -115,15 +118,15 @@ function Footer() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6">
-                                <p className="text-center text-md-start mb-md-0">© 2020 All Rights Reserved by Bestwebcreator</p>
+                                <p className="text-center text-md-start mb-md-0">© 2023 All Rights Reserved by Aptech.ThuDuc</p>
                             </div>
                             <div className="col-lg-6">
                                 <ul className="footer_payment text-center text-md-end">
-                                    <li><a href="#"><img src="assets/images/visa.png" alt="visa" /></a></li>
-                                    <li><a href="#"><img src="assets/images/discover.png" alt="discover" /></a></li>
-                                    <li><a href="#"><img src="assets/images/master_card.png" alt="master_card" /></a></li>
-                                    <li><a href="#"><img src="assets/images/paypal.png" alt="paypal" /></a></li>
-                                    <li><a href="#"><img src="assets/images/amarican_express.png" alt="amarican_express" /></a>
+                                    <li><a href="#"><img src="/assets/images/visa.png" alt="visa" /></a></li>
+                                    <li><a href="#"><img src="/assets/images/discover.png" alt="discover" /></a></li>
+                                    <li><a href="#"><img src="/assets/images/master_card.png" alt="master_card" /></a></li>
+                                    <li><a href="#"><img src="/assets/images/paypal.png" alt="paypal" /></a></li>
+                                    <li><a href="#"><img src="/assets/images/amarican_express.png" alt="amarican_express" /></a>
                                     </li>
                                 </ul>
                             </div>

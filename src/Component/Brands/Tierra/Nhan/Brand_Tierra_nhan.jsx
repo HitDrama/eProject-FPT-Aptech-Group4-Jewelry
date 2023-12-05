@@ -1,8 +1,9 @@
 import React from 'react'
 import Nhan_Tierra from '../../../json/tierra/nhan.json'
 import Sp from './Sp'
+import { Link } from 'react-router-dom'
 
-function Brand_Tierra_nhan() {
+function Brand_Tierra_nhan({ addCourseToCartFunction }) {
     return (
         <div>
             <div className="breadcrumb_section bg_gray page-title-mini">
@@ -15,7 +16,7 @@ function Brand_Tierra_nhan() {
                         </div>
                         <div className="col-md-6">
                             <ol className="breadcrumb justify-content-md-end">
-                                <li className="breadcrumb-item"><a href="/">Home</a></li>
+                                <li className="breadcrumb-item">< Link to="/">Home</Link></li>
                                 <li className="breadcrumb-item active">Product</li>
                                 <li className="breadcrumb-item active">Tierra</li>
                                 <li className="breadcrumb-item active">Ring</li>
@@ -65,12 +66,50 @@ function Brand_Tierra_nhan() {
                                 </div>
                                 <div className="row shop_container list">
                                     {
-                                        Nhan_Tierra.map((items, i) => {
+                                        Nhan_Tierra.map((items, index) => {
+                                            return <div className="col-md-12 col-12">
+                                                <div className="product" key={items.id}>
+                                                    <div className="product_img">
+                                                        <a href={items.link}>
+                                                            <img src={items.image} alt="product_img1" />
+                                                        </a>
 
-                                            return <Sp name={items.name} image={items.image} newprice={items.newprice} content={items.content} link={items.link} view={items.view} />
+                                                    </div>
+                                                    <div className="product_info">
+                                                        <h6 className="product_title"><a href={items.link}>{items.name}</a></h6>
+                                                        <div className="product_price">
+                                                            <span className="price">${items.newprice}</span>
+                                                            <del>$55.25</del>
+                                                            <div className="on_sale">
+                                                                <span>35% Off</span>
+                                                            </div>
+                                                        </div>
+                                                        <div className="rating_wrap">
+                                                            <div className="rating">
+                                                                <div classNameName="product_rate" style={{ width: "80%" }}></div>
+                                                            </div>
+                                                            <span className="rating_num">(21)</span>
+                                                        </div>
+                                                        <div className="pr_desc">
+                                                            <p>{items.content}</p>
+                                                        </div>
+
+                                                        <div className="list_product_action_box">
+                                                            <ul className="list_none pr_action_btn">
+                                                                <button onClick={() => addCourseToCartFunction(items)}>
+                                                                    <li className="add-to-cart"><a href="#"><i className="icon-basket-loaded"></i> Add To Cart</a></li>
+                                                                </button>
+                                                                <li><a className="popup-ajax" href="#"><i className="icon-shuffle" onClick={() => addCourseToCartFunction(items)}></i></a></li>
+
+                                                                <li><a href="#"><i className="icon-heart"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         })
-                                    }
 
+                                    }
                                 </div>
 
                             </div>

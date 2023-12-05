@@ -1,11 +1,17 @@
 import React from 'react'
-
+import Prodetail from '../../../Category.json'
+import { useParams } from 'react-router-dom'
 function daychuyen1() {
+
+    // const { id } = useParams();
+    // let items = Prodetail.filter((items) => items.id == id);
+    // items = items[0];
+
     return (
         <div>
 
 
-            {/* <!-- START SECTION SHOP --> */}
+
             <div className="section">
                 <div className="container">
                     <div className="row">

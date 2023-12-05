@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function About() {
     return (
@@ -13,8 +14,7 @@ function About() {
                         </div>
                         <div className="col-md-6">
                             <ol className="breadcrumb justify-content-md-end">
-                                <li className="breadcrumb-item"><a href="#">Home</a></li>
-                                <li className="breadcrumb-item active">Pages</li>
+                                <li className="breadcrumb-item"><a href="/">Home</a></li>
                                 <li className="breadcrumb-item active">About</li>
                             </ol>
                         </div>
@@ -29,7 +29,7 @@ function About() {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="about_img scene mb-4 mb-lg-0">
-                                    <img src="assets/anh/debeers1.jpg" alt="about_img" />
+                                    <img src="/assets/anh/debeers1.jpg" alt="about_img" />
                                 </div>
                             </div>
                             <div className="col-lg-6">
@@ -107,9 +107,9 @@ function About() {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="team_box team_style1">
                                     <div className="team_img">
-                                        <img src="assets/anh/nhan/anhnhan.jpg" alt="team_img1" />
+                                        <img src="/assets/anh/nhan/anhnhan.jpg" alt="team_img1" />
                                         <ul className="social_icons social_style1">
-                                            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                            <li><a href="https://www.facebook.com/nhan.dangto"><i class="ion-social-facebook"></i></a></li>
 
                                             <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
                                             <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
@@ -127,9 +127,9 @@ function About() {
                                 <div className="col-lg-3 col-sm-6">
                                     <div className="team_box team_style1">
                                         <div className="team_img">
-                                            <img src="assets/anh/nhan/man1.jpg" alt="team_img1" />
+                                            <img src="/assets/anh/nhan/man1.jpg" alt="team_img1" />
                                             <ul className="social_icons social_style1">
-                                                <li><a href="https://www.facebook.com/nhan.dangto"><i class="ion-social-facebook"></i></a></li>
+                                                <li><a href="https://www.facebook.com/profile.php?id=100070386550476"><i class="ion-social-facebook"></i></a></li>
 
                                                 <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
                                                 <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
@@ -146,7 +146,7 @@ function About() {
                                 <div className="col-lg-3 col-sm-6">
                                     <div className="team_box team_style1">
                                         <div className="team_img">
-                                            <img src="assets/anh/nhan/ngoc1.jpg" alt="team_img2" />
+                                            <img src="/assets/anh/nhan/ngoc1.jpg" alt="team_img2" />
                                             <ul className="social_icons social_style4">
                                                 <li><a href="#"><i class="ion-social-facebook"></i></a></li>
 
@@ -165,7 +165,7 @@ function About() {
                                 <div className="col-lg-3 col-sm-6">
                                     <div className="team_box team_style1">
                                         <div className="team_img">
-                                            <img src="assets/anh/nhan/anh1.jpg" alt="team_img3" />
+                                            <img src="/assets/anh/nhan/anh1.jpg" alt="team_img3" />
                                             <ul className="social_icons social_style4">
                                                 <li><a href="https://www.facebook.com/ngocna123456?mibextid=ZbWKwL"><i class="ion-social-facebook"></i></a></li>
 
@@ -184,7 +184,7 @@ function About() {
                                 <div className="col-lg-3 col-sm-6">
                                     <div className="team_box team_style1">
                                         <div className="team_img">
-                                            <img src="assets/anh/nhan/chi1.jpg" alt="team_img4" />
+                                            <img src="/assets/anh/nhan/chi1.jpg" alt="team_img4" />
                                             <ul className="social_icons social_style4">
                                                 <li><a href="#"><i class="ion-social-facebook"></i></a></li>
 
@@ -224,7 +224,7 @@ function About() {
                                             </div>
                                             <div className="author_wrap">
                                                 <div className="author_img">
-                                                    <img src="assets/anh/nhan/nguoi1.jpg" alt="user_img1" />
+                                                    <img src="/assets/anh/nhan/nguoi1.jpg" alt="user_img1" />
                                                 </div>
                                                 <div className="author_name">
                                                     <h6>Lissa Castro</h6>
@@ -238,7 +238,7 @@ function About() {
                                             </div>
                                             <div className="author_wrap">
                                                 <div className="author_img">
-                                                    <img src="assets/anh/nhan/nguoi2.jpg" alt="user_img2" />
+                                                    <img src="/assets/anh/nhan/nguoi2.jpg" alt="user_img2" />
                                                 </div>
                                                 <div className="author_name">
                                                     <h6>Alden Smith</h6>
@@ -252,7 +252,7 @@ function About() {
                                             </div>
                                             <div className="author_wrap">
                                                 <div className="author_img">
-                                                    <img src="assets/anh/nhan/nguoi3.jpg" alt="user_img3" />
+                                                    <img src="/assets/anh/nhan/nguoi3.jpg" alt="user_img3" />
                                                 </div>
                                                 <div className="author_name">
                                                     <h6>Daisy Lana</h6>
@@ -266,7 +266,7 @@ function About() {
                                             </div>
                                             <div className="author_wrap">
                                                 <div className="author_img">
-                                                    <img src="assets/anh/nhan/nguoi4.jpg" alt="user_img4" />
+                                                    <img src="/assets/anh/nhan/nguoi4.jpg" alt="user_img4" />
                                                 </div>
                                                 <div className="author_name">
                                                     <h6>John Becker</h6>
@@ -281,27 +281,7 @@ function About() {
                     </div>
 
 
-                    <div className="section bg_default small_pt small_pb">
-                        <div className="container">
-                            <div className="row align-items-center">
-                                <div className="col-md-6">
-                                    <div className="heading_s1 mb-md-0 heading_light">
-                                        <h3>Subscribe Our Newsletter</h3>
-                                    </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="newsletter_form">
-                                        <form>
-                                            <input type="text" required="" class="form-control rounded-0"
-                                                placeholder="Enter Email Address" />
-                                            <button type="submit" class="btn btn-dark rounded-0" name="submit"
-                                                value="Submit">Subscribe</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
 
 
                 </div>

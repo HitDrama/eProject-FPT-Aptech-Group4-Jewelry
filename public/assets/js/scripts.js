@@ -1,29 +1,16 @@
-/*===================================
-Author       : Bestwebcreator.
-Template Name: Shopwise - eCommerce Bootstrap 5 HTML Template
-Version      : 1.3
-===================================*/
 
-/*===================================*
-PAGE JS
-*===================================*/
 
 (function ($) {
 	'use strict';
 
-	/*===================================*
-	01. LOADING JS
-	/*===================================*/
+
 	$(window).on('load', function () {
 		setTimeout(function () {
 			$(".preloader").delay(700).fadeOut(700).addClass('loaded');
 		}, 800);
 	});
 
-	/*===================================*
-	02. BACKGROUND IMAGE JS
-	*===================================*/
-	/*data image src*/
+
 	$(".background_bg").each(function () {
 		var attr = $(this).attr('data-img-src');
 		if (typeof attr !== typeof undefined && attr !== false) {
@@ -31,9 +18,7 @@ PAGE JS
 		}
 	});
 
-	/*===================================*
-	03. ANIMATION JS
-	*===================================*/
+
 	$(function () {
 
 		function ckScrollInit(items, trigger) {
@@ -66,10 +51,7 @@ PAGE JS
 
 	});
 
-	/*===================================*
-	04. MENU JS
-	*===================================*/
-	//Main navigation scroll spy for shadow
+
 	$(window).on('scroll', function () {
 		var scroll = $(window).scrollTop();
 
@@ -81,11 +63,10 @@ PAGE JS
 
 	});
 
-	//Show Hide dropdown-menu Main navigation 
+
 	$(document).ready(function () {
 		$('.dropdown-menu a.dropdown-toggler').on('click', function () {
-			//var $el = $( this );
-			//var $parent = $( this ).offsetParent( ".dropdown-menu" );
+
 			if (!$(this).next().hasClass('show')) {
 				$(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
 			}
@@ -102,7 +83,7 @@ PAGE JS
 		});
 	});
 
-	//Hide Navbar Dropdown After Click On Links
+
 	var navBar = $(".header_wrap");
 	var navbarLinks = navBar.find(".navbar-collapse ul li a.page-scroll");
 
@@ -117,7 +98,7 @@ PAGE JS
 
 	});
 
-	//Main navigation Active Class Add Remove
+
 	$('.navbar-toggler').on('click', function () {
 		$("header").toggleClass("active");
 		if ($('.search-overlay').hasClass('open')) {
@@ -205,10 +186,7 @@ PAGE JS
 		rclass = false;
 	});
 
-	/*===================================*
-	05. SMOOTH SCROLLING JS
-	*===================================*/
-	// Select all links with hashes
+
 
 	var topheaderHeight = $(".top-header").innerHeight();
 	var mainheaderHeight = $(".header_wrap").innerHeight();
@@ -216,16 +194,16 @@ PAGE JS
 	$('a.page-scroll[href*="#"]:not([href="#"])').on('click', function () {
 		$('a.page-scroll.active').removeClass('active');
 		$(this).closest('.page-scroll').addClass('active');
-		// On-page links
+
 		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-			// Figure out element to scroll to
+
 			var target = $(this.hash),
 				speed = $(this).data("speed") || 800;
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 
-			// Does a scroll target exist?
+
 			if (target.length) {
-				// Only prevent default if animation is actually gonna happen
+
 				event.preventDefault();
 				$('html, body').animate({
 					scrollTop: target.offset().top - headerHeight
@@ -235,28 +213,28 @@ PAGE JS
 	});
 	$(window).on('scroll', function () {
 		var lastId,
-			// All list items
+
 			menuItems = $(".header_wrap").find("a.page-scroll"),
 			topMenuHeight = $(".header_wrap").innerHeight() + 20,
-			// Anchors corresponding to menu items
+
 			scrollItems = menuItems.map(function () {
 				var items = $($(this).attr("href"));
 				if (items.length) { return items; }
 			});
 		var fromTop = $(this).scrollTop() + topMenuHeight;
 
-		// Get id of current scroll item
+
 		var cur = scrollItems.map(function () {
 			if ($(this).offset().top < fromTop)
 				return this;
 		});
-		// Get the id of the current element
+
 		cur = cur[cur.length - 1];
 		var id = cur && cur.length ? cur[0].id : "";
 
 		if (lastId !== id) {
 			lastId = id;
-			// Set/remove active class
+
 			menuItems.closest('.page-scroll').removeClass("active").end().filter("[href='#" + id + "']").closest('.page-scroll').addClass("active");
 		}
 
@@ -268,9 +246,7 @@ PAGE JS
 		$('.more_slide_open').slideToggle();
 	});
 
-	/*===================================*
-	06. SEARCH JS
-	*===================================*/
+
 
 	$(".close-search").on("click", function () {
 		$(".search_wrap,.search_overlay").removeClass('open');
@@ -301,9 +277,7 @@ PAGE JS
 		removeClass = true;
 	});
 
-	/*===================================*
-	07. SCROLLUP JS
-	*===================================*/
+
 	$(window).on('scroll', function () {
 		if ($(this).scrollTop() > 150) {
 			$('.scrollup').fadeIn();
@@ -320,16 +294,12 @@ PAGE JS
 		return false;
 	});
 
-	/*===================================*
-	08. PARALLAX JS
-	*===================================*/
+
 	$(window).on('load', function () {
 		$('.parallax_bg').parallaxBackground();
 	});
 
-	/*===================================*
-	09. MASONRY JS
-	*===================================*/
+
 	$(window).on("load", function () {
 		var $grid_selectors = $(".grid_container");
 		var filter_selectors = ".grid_filter > li > a";
@@ -355,7 +325,7 @@ PAGE JS
 			});
 		}
 
-		//isotope filter
+
 		$(document).on("click", filter_selectors, function () {
 			$(filter_selectors).removeClass("current");
 			$(this).addClass("current");
@@ -388,7 +358,7 @@ PAGE JS
 
 		$(window).on("resize", function () {
 			setTimeout(function () {
-				$grid_selectors.find('.grid_item').removeClass('animation').removeClass('animated'); // avoid problem to filter after window resize
+				$grid_selectors.find('.grid_item').removeClass('animation').removeClass('animated');
 				$grid_selectors.isotope('layout');
 			}, 300);
 		});
@@ -406,9 +376,7 @@ PAGE JS
 		});
 	});
 
-	/*===================================*
-	10. SLIDER JS
-	*===================================*/
+
 	function carousel_slider() {
 		$('.carousel_slider').each(function () {
 			var $carousel = $(this);
@@ -465,9 +433,7 @@ PAGE JS
 		carousel_slider();
 		slick_slider();
 	});
-	/*===================================*
-	11. CONTACT FORM JS
-	*===================================*/
+
 	$("#submitButton").on("click", function (event) {
 		event.preventDefault();
 		var mydata = $("form").serialize();
@@ -499,18 +465,16 @@ PAGE JS
 		});
 	});
 
-	/*===================================*
-	12. POPUP JS
-	*===================================*/
+
 	$('.content-popup').magnificPopup({
 		type: 'inline',
 		preloader: true,
 		mainClass: 'mfp-zoom-in',
 	});
 
-	$('.image_gallery').each(function () { // the containers for all your galleries
+	$('.image_gallery').each(function () {
 		$(this).magnificPopup({
-			delegate: 'a', // the selector for gallery item
+			delegate: 'a',
 			type: 'image',
 			gallery: {
 				enabled: true,
@@ -536,12 +500,9 @@ PAGE JS
 		fixedContentPos: false
 	});
 
-	/*===================================*
-	13. Select dropdowns
-	*===================================*/
 
 	if ($('select').length) {
-		// Traverse through all dropdowns
+
 		$.each($('select'), function (i, val) {
 			var $el = $(val);
 
@@ -563,27 +524,21 @@ PAGE JS
 		});
 	}
 
-	/*==============================================================
-	14. FIT VIDEO JS
-	==============================================================*/
+
 	if ($(".fit-videos").length > 0) {
 		$(".fit-videos").fitVids({
 			customSelector: "iframe[src^='https://w.soundcloud.com']"
 		});
 	}
 
-	/*==============================================================
-	15. DROPDOWN JS
-	==============================================================*/
+
 	if ($(".custome_select").length > 0) {
 		$(document).ready(function () {
 			$(".custome_select").msDropdown();
 		});
 	}
 
-	/*===================================*
-	16.MAP JS
-	*===================================*/
+
 	if ($("#map").length > 0) {
 		google.maps.event.addDomListener(window, 'load', init);
 	}
@@ -594,7 +549,7 @@ PAGE JS
 		var mapOptions = {
 			zoom: map_selector.data("zoom"),
 			mapTypeControl: false,
-			center: new google.maps.LatLng(map_selector.data("latitude"), map_selector.data("longitude")), // New York
+			center: new google.maps.LatLng(map_selector.data("latitude"), map_selector.data("longitude")),
 		};
 		var mapElement = document.getElementById('map');
 		var map = new google.maps.Map(mapElement, mapOptions);
@@ -609,9 +564,7 @@ PAGE JS
 	}
 
 
-	/*===================================*
-	17. COUNTDOWN JS
-	*===================================*/
+
 	$('.countdown_time').each(function () {
 		var endTime = $(this).data('time');
 		$(this).countdown(endTime, function (tm) {
@@ -619,9 +572,6 @@ PAGE JS
 		});
 	});
 
-	/*===================================*
-	18. List Grid JS
-	*===================================*/
 	$('.shorting_icon').on('click', function () {
 		if ($(this).hasClass('grid')) {
 			$('.shop_container').removeClass('list').addClass('grid');
@@ -638,9 +588,7 @@ PAGE JS
 		}, 800);
 	});
 
-	/*===================================*
-	19. TOOLTIP JS
-	*===================================*/
+
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip({
 			trigger: 'hover',
@@ -650,9 +598,7 @@ PAGE JS
 		$('[data-toggle="popover"]').popover();
 	});
 
-	/*===================================*
-	20. PRODUCT COLOR JS
-	*===================================*/
+
 	$('.product_color_switch span').each(function () {
 		var get_color = $(this).attr('data-color');
 		$(this).css("background-color", get_color);
@@ -662,11 +608,9 @@ PAGE JS
 		$(this).siblings(this).removeClass('active').end().addClass('active');
 	});
 
-	/*===================================*
-	21. QUICKVIEW POPUP + ZOOM IMAGE + PRODUCT SLIDER JS
-	*===================================*/
+
 	var image = $('#product_img');
-	//var zoomConfig = {};
+
 	var zoomActive = false;
 
 	zoomActive = !zoomActive;
@@ -682,8 +626,8 @@ PAGE JS
 		}
 	}
 	else {
-		$.removeData(image, 'elevateZoom');//remove zoom instance from image
-		$('.zoomContainer:last-child').remove();// remove zoom container from DOM
+		$.removeData(image, 'elevateZoom');
+		$('.zoomContainer:last-child').remove();
 	}
 
 	$.magnificPopup.defaults.callbacks = {
@@ -691,17 +635,17 @@ PAGE JS
 			$('body').addClass('zoom_image');
 		},
 		close: function () {
-			// Wait until overflow:hidden has been removed from the html tag
+
 			setTimeout(function () {
 				$('body').removeClass('zoom_image');
 				$('body').removeClass('zoom_gallery_image');
-				//$('.zoomContainer:last-child').remove();// remove zoom container from DOM
+
 				$('.zoomContainer').slice(1).remove();
 			}, 100);
 		}
 	};
 
-	// Set up gallery on click
+
 	var galleryZoom = $('#pr_item_gallery');
 	galleryZoom.magnificPopup({
 		delegate: 'a',
@@ -716,7 +660,7 @@ PAGE JS
 		}
 	});
 
-	// Zoom image when click on icon
+
 	$('.product_img_zoom').on('click', function () {
 		var atual = $('#pr_item_gallery a').attr('data-zoom-image');
 		$('body').addClass('zoom_gallery_image');
@@ -738,9 +682,7 @@ PAGE JS
 		}
 	});
 
-	/*===================================*
-   22. PRICE FILTER JS
-   *===================================*/
+
 	$('#price_filter').each(function () {
 		var $filter_selector = $(this);
 		var a = $filter_selector.data("min-value");
@@ -760,12 +702,10 @@ PAGE JS
 		$("#flt_price").html(c + $filter_selector.slider("values", 0) + " - " + c + $filter_selector.slider("values", 1));
 	});
 
-	/*===================================*
-	23. RATING STAR JS
-	*===================================*/
+
 	$(document).ready(function () {
 		$('.star_rating span').on('click', function () {
-			var onStar = parseFloat($(this).data('value'), 10); // The star currently selected
+			var onStar = parseFloat($(this).data('value'), 10);
 			var stars = $(this).parent().children('.star_rating span');
 			for (var i = 0; i < stars.length; i++) {
 				$(stars[i]).removeClass('selected');
@@ -776,9 +716,7 @@ PAGE JS
 		});
 	});
 
-	/*===================================*
-	24. CHECKBOX CHECK THEN ADD CLASS JS
-	*===================================*/
+
 	$('.create-account,.different_address').hide();
 	$('#createaccount:checkbox').on('change', function () {
 		if ($(this).is(":checked")) {
@@ -795,9 +733,7 @@ PAGE JS
 		}
 	});
 
-	/*===================================*
-	25. Cart Page Payment option
-	*===================================*/
+
 	$(document).ready(function () {
 		$('[name="payment_option"]').on('change', function () {
 			var $value = $(this).attr('value');
@@ -806,9 +742,7 @@ PAGE JS
 		});
 	});
 
-	/*===================================*
-	26. ONLOAD POPUP JS
-	*===================================*/
+
 
 	$(window).on('load', function () {
 		setTimeout(function () {

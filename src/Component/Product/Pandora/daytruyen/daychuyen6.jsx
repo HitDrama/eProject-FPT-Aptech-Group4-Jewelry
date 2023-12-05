@@ -2,7 +2,7 @@ import React from 'react'
 
 function daytruyen6() {
     return (
-        <div> {/* <!-- START SECTION SHOP --> */}
+        <div>
             <div className="section">
                 <div className="container">
                     <div className="row">

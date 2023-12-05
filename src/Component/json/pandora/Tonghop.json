@@ -1,0 +1,152 @@
+[
+    {
+        "metal": "375",
+        "link": "/product/15",
+        "id": 15,
+        "name": "Bracelet Waren",
+        "image": "/assets/hinhanhthi/Pandora/vong tay/vongtay1.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/vong tay/vongtay1.1.jpg",
+        "clarity": "VS1",
+        "weight": "4.22 gam",
+        "material": "rose gold 375",
+        "type_stone": "diamond",
+        "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
+        "bard": [
+            {
+                "id": 15,
+                "name": "Glamira"
+            }
+        ],
+        "oldprice": 100000,
+        "newprice": 772.33,
+        "view": 27,
+        "style": " Very good",
+        "rating": 4,
+        "type": "Bracelet"
+    },
+    {
+        "metal": "585",
+        "link": "/product/16",
+        "id": 16,
+        "name": "Bracelet Ferstel",
+        "image": "/assets/hinhanhthi/Pandora/vong tay/vongtay2.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/vong tay/vongtay2.2.jpg",
+        "clarity": "VS1",
+        "weight": "2.72 gam",
+        "material": "gold 585",
+        "type_stone": "sapphire",
+        "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
+        "bard": [
+            {
+                "id": 16,
+                "name": "Glamira"
+            }
+        ],
+        "oldprice": 100000,
+        "newprice": 426.58,
+        "view": 20,
+        "style": " Very good",
+        "rating": 4,
+        "type": "Bracelet"
+    },
+    {
+        "metal": "375",
+        "link": "/product/1",
+        "id": 1,
+        "name": "Necklace Ahishar",
+        "image": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen1.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen1.1.jpg",
+        "clarity": "AAA",
+        "weight": "2.52 gam",
+        "material": "rose gold 375",
+        "type_stone": "topaz",
+        "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
+        "bard": [
+            {
+                "id": 1,
+                "name": "Glamira"
+            }
+        ],
+        "oldprice": 100000,
+        "newprice": 752.75,
+        "view": 20,
+        "style": " Very good",
+        "rating": 5,
+        "type": "Necklace"
+    },
+    {
+        "metal": "585",
+        "link": "/product/2",
+        "id": 2,
+        "name": "Necklace Amtsgericht",
+        "image": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen2.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/day-chuyen/daychuyen2.2.jpg",
+        "clarity": "AAA",
+        "weight": "2.61 gam",
+        "material": "rose gold 585",
+        "type_stone": "sapphire",
+        "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
+        "bard": [
+            {
+                "id": 2,
+                "name": "Glamira"
+            }
+        ],
+        "oldprice": 100000,
+        "newprice": 817.16,
+        "view": 22,
+        "style": " Very good",
+        "rating": 5,
+        "type": "Necklace"
+    },
+    {
+        "metal": "585",
+        "link": "/product/8",
+        "id": 8,
+        "name": "Diamong Ring Zeno",
+        "image": "/assets/hinhanhthi/Pandora/nhan/nhan1.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/nhan/nhan1.1.jpg",
+        "clarity": "VS1",
+        "weight": "3.23 gam",
+        "material": "gold 585",
+        "type_stone": "diamond",
+        "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
+        "bard": [
+            {
+                "id": 8,
+                "name": "Glamira"
+            }
+        ],
+        "oldprice": 100000,
+        "newprice": 536.33,
+        "view": 22,
+        "style": " Very good",
+        "rating": 4,
+        "type": "Ring"
+    },
+    {
+        "metal": "375",
+        "link": "/product/9",
+        "id": 9,
+        "name": "Diamond Ring Sueann",
+        "image": "/assets/hinhanhthi/Pandora/nhan/nhan2.jpg",
+        "anhmoi": "/assets/hinhanhthi/Pandora/nhan/nhan2.2.jpg",
+        "clarity": "VS1",
+        "weight": "2.69 gam",
+        "material": "white gold 375",
+        "type_stone": "swarovski",
+        "content": "Since its inception, the GLAMIRA jewelry brand has always strived to perfect each special and emotional moment of its users, based on quality and trust. Believing that everyone is special and unique, GLAMIRA produces designs that offer freedom of personalization.",
+        "bard": [
+            {
+                "id": 9,
+                "name": "Glamira"
+            }
+        ],
+        "oldprice": 100000,
+        "newprice": 1414.80,
+        "view": 21,
+        "style": " Very good",
+        "rating": 3,
+        "type": "Ring"
+    }
+]

@@ -3,7 +3,7 @@ import React from 'react'
 function daychuyen2() {
     return (
         <div>
-            {/* <!-- START SECTION SHOP --> */}
+
             <div className="section">
                 <div className="container">
                     <div className="row">

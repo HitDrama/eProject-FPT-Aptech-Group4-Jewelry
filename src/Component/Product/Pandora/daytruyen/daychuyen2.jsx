@@ -1,9 +1,15 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
+import Prodetail from '../../../Category.json'
 
 function daychuyen2() {
+    // const { id } = useParams();
+    // let items = Prodetail.filter((items) => items.id == id);
+    // items = items[0];
+
     return (
         <div>
-            {/* <!-- START SECTION SHOP --> */}
+
             <div className="section">
                 <div className="container">
                     <div className="row">
