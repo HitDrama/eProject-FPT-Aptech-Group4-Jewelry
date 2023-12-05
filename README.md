@@ -17,7 +17,7 @@
 
   DURABLE FURNITURES is selling various types of Furniture’s. The company advertises by distributing the pamphlets, advertising on television and so on. Due to rapid development in internet field, the company decides to launch a website where people will get all the information about the various products available with them easily.
   <br  />
-  <a  href="https://github.com/AliNguy3n/eProject-Fpt-Aptech-Group1-Durable-Furniture.git"><strong>Explore the source »</strong></a>
+  <a  href="https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry"><strong>Explore the source »</strong></a>
   <a  href="https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry/tree/main/document" target="_blank"><strong>Explore the documents »</strong></a>
 
   <br  /><a  href="https://e-project-fpt-aptech-group1-durable-furniture.vercel.app/" target="_blank">View Demo</a>  . <a  href="https://youtu.be/-6b57JYreSc" target="_blank">Video</a>
