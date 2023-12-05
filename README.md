@@ -7,7 +7,7 @@
 <div  align="center">
 
 
-<img  src="https://raw.githubusercontent.com/AliNguy3n/eProject-Fpt-Aptech-Group1-Durable-Furniture/main/src/assets/images/Logo-DurableFunitures-main.png"  alt="Logo"  width="768px"  height="auto">
+<img  src="/assets/anh/logo/Logo-De-Beer-Header-1.png"  alt="Logo"  width="768px"  height="auto">
 
 </a>
 
