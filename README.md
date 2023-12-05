@@ -20,7 +20,7 @@
   <a  href="https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry"><strong>Explore the source »</strong></a>
   <a  href="https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry/tree/main/document" target="_blank"><strong>Explore the documents »</strong></a>
 
-  <br  /><a  href="https://e-project-fpt-aptech-group4-imitation-jewelry-355zl8f96.vercel.app/" target="_blank">View Demo</a>  . <a  href="https://youtu.be/-6b57JYreSc" target="_blank">Video</a>
+  <br  /><a  href="https://e-project-fpt-aptech-group4-imitation-jewelry-355zl8f96.vercel.app/" target="_blank">View Demo</a>  . <a  href="https://www.youtube.com/" target="_blank">Video</a>
 
 <img  src="https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry/assets/138606484/3650f777-9c33-4d76-b7e7-3138aaf4b013"  alt="Logo"  width="768px"  height="auto">
 
