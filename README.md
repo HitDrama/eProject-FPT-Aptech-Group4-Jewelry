@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<a  name="readme-top"></a>
+  
+<!-- DURABLE FURNITURES -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br  />
 
-## Available Scripts
+<div  align="center">
 
-In the project directory, you can run:
 
-### `npm start`
+<img  src="https://raw.githubusercontent.com/AliNguy3n/eProject-Fpt-Aptech-Group1-Durable-Furniture/main/src/assets/images/Logo-DurableFunitures-main.png"  alt="Logo"  width="768px"  height="auto">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  
 
-### `npm test`
+<h3  align="center">DURABLE FURNITURES</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  DURABLE FURNITURES is selling various types of Furniture’s. The company advertises by distributing the pamphlets, advertising on television and so on. Due to rapid development in internet field, the company decides to launch a website where people will get all the information about the various products available with them easily.
+  <br  />
+  <a  href="https://github.com/AliNguy3n/eProject-Fpt-Aptech-Group1-Durable-Furniture.git"><strong>Explore the source »</strong></a>
+  <a  href="https://github.com/AliNguy3n/eProject-Fpt-Aptech-Group1-Durable-Furniture/tree/0bdf01110342da7cd513cae701f6f8eed61816cd/documents" target="_blank"><strong>Explore the documents »</strong></a>
 
-### `npm run build`
+  <br  /><a  href="https://e-project-fpt-aptech-group1-durable-furniture.vercel.app/" target="_blank">View Demo</a>  . <a  href="https://youtu.be/-6b57JYreSc" target="_blank">Video</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img  src="https://raw.githubusercontent.com/AliNguy3n/eProject-Fpt-Aptech-Group1-Durable-Furniture/main/public/images/UI-DEMO.png"  alt="Logo"  width="768px"  height="auto">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ### Built With
+  Below is the languages/libraries we used for this project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+  
+  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![HTML]&nbsp;![CSS3] &nbsp;![JS]&nbsp;![SASS]&nbsp;![REACT]
+<div  align="left">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  
+### Features </br>
+<ol>
+<li>
+The Home Page should be created making use of Sections with a suitable logo.</br>
+</li>
+<li>
+Home Page should contain details of furniture’s and home decors with suitable images. </br>
+</li>
+<li>
+The site should display a menu which will contain the options for brief introduction about the various furniture’s available, location of the shop and any other information if required.</br>
+</li>
+<li>
+The information should be categorized according to the brand names of the products like if a User wants to see only “DURIAN” products or any other companies products then he/she can click on a Link/button/menu etc and can see only that Brand products.</br>
+</li>
+<li>
+When a user selects any particular brand, a list of products for that brand will be displayed</br>
+</li>
+<li>
+A brief summary of features of individual products should be displayed on the Web Page along with the product but detailed Features should be stored in Individual Word documents which can be downloaded or viewed by the User who wishes to see the same.</br>
+</li>
+<li>
+The user should also be able to compare the various products of different as well as similar brands.</br>
+</li>
+<li>
+There should be a “Contact Us” page which will have the Address of the Company which is as follows and the mail address which when clicked will invoke the local mail client from where they can send an email. Address of the Company should be displayed using GeoLocation API (eg. GoogleMaps).</br>
+</ol>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ## Members of group
+ ### Leader : Nguyen Duc Linh `Student1477171`
+#### Members:
+Trần Nhựt Huy `Student1477551` </br>
+Nguyễn Anh Vũ `Student1477471` </br>
+Trần Việt Khôi `Student1477470` </br>
