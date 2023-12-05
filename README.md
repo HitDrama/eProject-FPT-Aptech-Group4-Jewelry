@@ -31,7 +31,7 @@
   
   
 
-[HTML]&emsp;[CSS3] &emsp; [JS]&emsp; [SASS]&emsp; [REACT]
+[JSX]&emsp;[CSS3] &emsp; [JS]&emsp; [JSON]&emsp; [REACT]
 <div  align="left">
 
 
