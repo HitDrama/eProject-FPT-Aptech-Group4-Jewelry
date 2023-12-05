@@ -66,6 +66,9 @@ address which when clicked will invoke the local mail client from where they
 can send an email. Address of the Company should be displayed using
 GeoLocation API (eg. GoogleMaps).</br>
 </li>
+  <li>
+About Us</br>
+</li>
 <li>
 Feedback form</br>
 </li>
