@@ -40,28 +40,44 @@
 ### Features </br>
 <ol>
 <li>
-The Home Page should be created making use of Sections with a suitable logo.</br>
+The home page must describe the keywords or highlight of the shop along
+with all navigation link defined.
+</br>
 </li>
 <li>
-Home Page should contain details of furniture’s and home decors with suitable images. </br>
+The product must be categorized as per the “Brand”. </br>
 </li>
 <li>
-The site should display a menu which will contain the options for brief introduction about the various furniture’s available, location of the shop and any other information if required.</br>
+It should be followed by sub-category with the type (Original, Semi Precious,
+and Artificial).</br>
 </li>
 <li>
-The information should be categorized according to the brand names of the products like if a User wants to see only “DURIAN” products or any other companies products then he/she can click on a Link/button/menu etc and can see only that Brand products.</br>
+Proper description of the product along with the image must be added in the
+website.</br>
 </li>
 <li>
-When a user selects any particular brand, a list of products for that brand will be displayed</br>
+Comparison of the product must be included in the website. (like comparison
+between product designing same but one will be semi-Precious and other
+Artificial and so on).</br>
 </li>
 <li>
-A brief summary of features of individual products should be displayed on the Web Page along with the product but detailed Features should be stored in Individual Word documents which can be downloaded or viewed by the User who wishes to see the same.</br>
+The “Contact Us” page should have the Address of the Company and the mail
+address which when clicked will invoke the local mail client from where they
+can send an email. Address of the Company should be displayed using
+GeoLocation API (eg. GoogleMaps).</br>
 </li>
 <li>
-The user should also be able to compare the various products of different as well as similar brands.</br>
+Feedback form</br>
 </li>
 <li>
-There should be a “Contact Us” page which will have the Address of the Company which is as follows and the mail address which when clicked will invoke the local mail client from where they can send an email. Address of the Company should be displayed using GeoLocation API (eg. GoogleMaps).</br>
+Gallery section should be added.</br>
+</li>
+<li>
+Color combination must be uniform throughout the project.</br>
+</li>
+  <li>
+Navigation must be smooth.</br>
+</li>
 </ol>
 
  ## Members of group
