@@ -31,7 +31,7 @@
   
   
 
-![HTML]&nbsp;![CSS3] &nbsp;![JS]&nbsp;![SASS]&nbsp;![REACT]
+[HTML]&nbsp;[CSS3] &nbsp;[JS]&nbsp;[SASS]&nbsp;[REACT]
 <div  align="left">
 
 
