@@ -84,8 +84,9 @@ Navigation must be smooth.</br>
 </ol>
 
  ## Members of group
- ### Leader : Nguyen Duc Linh `Student1477171`
+ ### Leader : Dang To Nhan `Student1501054`
 #### Members:
-Trần Nhựt Huy `Student1477551` </br>
-Nguyễn Anh Vũ `Student1477471` </br>
-Trần Việt Khôi `Student1477470` </br>
+Dương Văn Mẫn `Student1501157` </br>
+Nguyễn Hoàng Anh `Student1501270` </br>
+Phan Trần Đăng Chí `Student1501058` </br>
+Nguyễn Hoàng Minh Ngọc  `Student1501214` </br>
