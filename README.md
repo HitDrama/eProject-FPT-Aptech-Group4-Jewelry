@@ -7,7 +7,7 @@
 <div  align="center">
 
 
-<img  src="[/assets/anh/logo/Logo-De-Beer-Header-1.png](https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry/assets/138606484/a3998535-7be9-4f74-9b6a-add73e381967)"  alt="Logo"  width="768px"  height="auto">
+<img  src="https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry/assets/138606484/a3998535-7be9-4f74-9b6a-add73e381967"  alt="Logo"  width="768px"  height="auto">
 
 </a>
 
