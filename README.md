@@ -22,7 +22,7 @@
 
   <br  /><a  href="https://e-project-fpt-aptech-group1-durable-furniture.vercel.app/" target="_blank">View Demo</a>  . <a  href="https://youtu.be/-6b57JYreSc" target="_blank">Video</a>
 
-<img  src="https://raw.githubusercontent.com/AliNguy3n/eProject-Fpt-Aptech-Group1-Durable-Furniture/main/public/images/UI-DEMO.png"  alt="Logo"  width="768px"  height="auto">
+<img  src="https://github.com/HitDrama/eProject-FPT-Aptech-Group4-Imitation-Jewelry/assets/138606484/3650f777-9c33-4d76-b7e7-3138aaf4b013"  alt="Logo"  width="768px"  height="auto">
 
   ### Built With
   Below is the languages/libraries we used for this project:
